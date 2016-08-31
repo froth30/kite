@@ -1,0 +1,18 @@
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<GridPane fx:controller="kite.Controller" fx:id="splashPane"
+          xmlns:fx="http://javafx.com/fxml" alignment="CENTER" vgap="-10">
+    <Text fx:id="splashText" text="kite" textAlignment="CENTER"
+          stroke="#FF6600" strokeWidth="4" fill="#FF9311"
+          GridPane.valignment="BOTTOM">
+        <font>
+            <Font name="Sylfaen" size="180"/>
+        </font>
+    </Text>
+    <Polygon fill="#CCCCCC" points="100,0,0,50,200,50"
+             GridPane.valignment="TOP" GridPane.halignment="CENTER"
+             GridPane.rowIndex="2">
+    </Polygon>
+</GridPane>
